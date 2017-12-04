@@ -1,1 +1,3 @@
-# module
+# Module
+
+Module for schoolwork
