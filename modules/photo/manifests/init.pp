@@ -14,7 +14,7 @@ class photo {
 
 	user { 'valokuvaaja':
 		ensure  => present,
-		password => 'R6av2a21',
+		password => '',
 		home => '/home/valokuvaaja',
 		managehome => true,
 	}
