@@ -12,7 +12,7 @@ class photo {
 		allowcdrom => "true",
 	}
 
-	user { 'Valokuvaaja':
+	user { 'valokuvaaja':
 		ensure  => present,
 		password => 'R6av2a21',
 		home => '/home/valokuvaaja',
