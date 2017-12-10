@@ -1,23 +1,27 @@
-class camera {
+class photo {
 
 	package { "gedit": }
 	package { "libreoffice": }
 	package { "vlc": }
+	package { "darktable": }
+	package { "rawtherapee": }
+	package { "gimp": }
+	package { "digikame": }
 
 	Package { ensure => "installed",
 		allowcdrom => "true",
 	}
 
-	user { 'kayttaja':
+	user { 'Valokuvaaja':
 		ensure  => present,
-		password => 'salainen',
+		password => 'R6av2a21',
 		home => '/home/kayttaja',
 		shell => '/bin/bash',
 		managehome => true,
 	}
 
         file {"/usr/share/xfce4/backdrops/wallpaper.jpg":
-                source => "puppet:///modules/camera/wallpaper.jpg",
+                source => "puppet:///modules/photo/wallpaper.jpg",
         }
         file {"/usr/share/xfce4/backdrops/xubuntu-wallpaper.png":
                 ensure => "link",
