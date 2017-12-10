@@ -1,3 +1,1 @@
-include wallpaper
-include user
-include programs
+include photo
