@@ -1,5 +1,6 @@
 # Module
 
-Puppet module for schoolwork.
-Made for amateur photographers.
-Source terokarvinen.com.
+Puppet module for schoolwork.\n
+Made for amateur photographers.\n
+Source terokarvinen.com.\n
+sudo puppet apply -e 'class {"photo":}'
