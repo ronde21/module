@@ -6,4 +6,4 @@ Made for amateur photographers.
 
 Source terokarvinen.com.
 
-```sudo puppet apply -e 'class {"photo":}'```
+```bash asennus.sh```
