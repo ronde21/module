@@ -6,7 +6,7 @@ class photo {
 	package { "darktable": }
 	package { "rawtherapee": }
 	package { "gimp": }
-	package { "digikame": }
+	package { "digikam": }
 
 	Package { ensure => "installed",
 		allowcdrom => "true",
