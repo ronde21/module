@@ -16,7 +16,6 @@ class photo {
 		ensure  => present,
 		password => 'R6av2a21',
 		home => '/home/valokuvaaja',
-		shell => '/bin/bash',
 		managehome => true,
 	}
 
