@@ -17,4 +17,4 @@ Commands:
 ```bash asennus.sh```
 
 
-Source terokarvinen.com.
+Source terokarvinen.com
