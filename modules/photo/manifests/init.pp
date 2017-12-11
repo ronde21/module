@@ -26,12 +26,12 @@ class photo {
 	}
 	file {"/usr/share/xfce4/backdrops/wallpaper.jpg":
                 source => "puppet:///modules/photo/wallpaper.jpg",
-		require => service["lightdm"],
+		require => Service["lightdm"],
         }
         file {"/usr/share/xfce4/backdrops/xubuntu-wallpaper.png":
                 ensure => "link",
                 target => "/usr/share/xfce4/backdrops/wallpaper.jpg",
-		require => service["lightdm"],
+		require => Service["lightdm"],
         }
 
 }
